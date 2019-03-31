@@ -150,7 +150,7 @@ body {
   }
   
   .work img {
-    width: 100%;
+    width: 112%;
     border: 0 none;
     opacity: 0.8;
   }
@@ -230,6 +230,9 @@ body {
       .portfolio {
         width: 100%;
       }
+      #masthead {
+        width: 100%;
+      }
   }
   
   @media screen and (max-width:768px) {
@@ -246,22 +249,31 @@ body {
       .portfolio {
         width: 100%;
       }
+      #masthead {
+        width: 100%;
+      }
   }
   @media screen and (max-width: 640px) {
     #masthead {
         position: static;
+        display: block;
       }
       #container {
        width: 100%;
+       display: block;
       }
       .main-section {
         width: 100%;
+        display: block;
       }
       .sidebar {
         width: 100%;
+        display: block;
       }
       .portfolio {
         width: 100%;
+        display: block;
       }
+   
 
   }
